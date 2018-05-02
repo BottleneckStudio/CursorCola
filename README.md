@@ -4,8 +4,8 @@
 
 a small fizz for all your cursor needs
 
-visit this site to check the css syntax of each pointers
+visit this * [site](https://bottleneckstudio.github.io/CursorCola/) to check the css syntax of each pointers
 
-or download our 2kb css file right here
+or download our 2kb css file * [here](https://github.com/BottleneckStudio/CursorCola)
 
 
