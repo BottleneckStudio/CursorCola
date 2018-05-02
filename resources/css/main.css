@@ -22,7 +22,33 @@ a{
     margin: 0 auto;
 }
 
+.label::after{
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 0;
+    background: #422801;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.cursor-container:hover .label:after{
+    height: 100%;
+}
+.cursor-container:hover .label{
+    background: transparent;
+    border: 3px solid #D34A4A;
+}
+.cursor-container:hover .label h1{
+    color: #fff;
+}
+
 .label{
+    border: 3px solid #fff;
+    overflow: hidden;
     position: relative;
     border-radius: 5px;
     padding: 10px;
