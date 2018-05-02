@@ -1,2 +1,3 @@
 # ignore all sass files
-*.scss
+cursor.scss
+.DS_STORE
