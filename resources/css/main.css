@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.01);
+    font-family: 'Bitter', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    padding: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.label{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgba(0,0,0,0.1);
+}
+
+.code{
+    opacity: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.code h5{
+    text-align: center;
+    font-size: 20px;
+}
+
+.code .syntax{
+    color: #4c9beb;
+}
+
+.code .type{
+    color: #e55c5c;
+}
+
+.title h1, .title h4 , .cursor-container h1{
+    text-align: center;
+}
+
+.cur-alias:hover .code,
+.cur-alias:hover .code,
+.cur-allscroll:hover .code,
+.cur-auto:hover .code,
+.cur-cell:hover .code,
+.cur-contextmenu:hover  .code, 
+.cur-colresize:hover .code,
+.cur-copy:hover .code,
+.cur-crosshair:hover    .code,
+.cur-default:hover  .code,
+.cur-eresize:hover  .code,
+.cur-ewresize:hover .code,
+.cur-grab:hover .code,
+.cur-grabbing:hover .code,
+.cur-help:hover .code,
+.cur-move:hover .code,
+.cur-nresize:hover  .code,
+.cur-neresize:hover .code,
+.cur-neswresize:hover   .code,
+.cur-nsresize:hover .code,
+.cur-nwresize:hover .code,
+.cur-nwseresize:hover   .code,
+.cur-nodrop:hover   .code,
+.cur-none:hover .code,
+.cur-notallowed:hover   .code,
+.cur-pointer:hover  .code,
+.cur-progress:hover .code,
+.cur-rowresize:hover    .code,
+.cur-sresize:hover  .code,
+.cur-seresize:hover .code,
+.cur-swresize:hover .code,
+.cur-text:hover .code,
+.cur-url:hover  .code,
+.cur-wresize:hover  .code,
+.cur-wait:hover .code,
+.cur-zoomin:hover   .code,
+.cur-zoomout:hover  .code{
+    opacity: 1;
+}
