@@ -1,6 +1,6 @@
 # CursorCola
 
-![alt text](/resources/svg/cursorcola.svg)
+![alt text](/resources/svg/cursorcola.svg =256x185)
 
 a small fizz for all your cursor needs
 
