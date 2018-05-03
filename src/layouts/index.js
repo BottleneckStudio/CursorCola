@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 
 import '../resources/css/main.css'
 import '../resources/css/grid.css'
+import favicon from '../../favicon-32x32.png'
+import cursor from '../resources/css/cursor.css'
 
 
 const Layout = ({ children, data }) => (
@@ -15,7 +17,8 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'cursor, css' },
       ]}
     >
-      <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
+      <link rel="icon" type="image/png" href={favicon} sizes="32x32"/>
+      <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/> 
     </Helmet>
     {children()}
   </div>

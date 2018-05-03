@@ -17,7 +17,7 @@ body{
 }
 
 rect{
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 a{
@@ -52,18 +52,22 @@ a{
 
 
 .cursor-container rect{
-    y: 500;
+    y: 109.3;
     position: relative;
     bottom: 0;
     transform: translateY(0);
+    fill: #996633;
 }
 
 .cursor-container:hover rect{
-    y: 109.3;
-    /*height: 0%;*/
+    y: 500;
 }
 
 .cursor-container:hover .label-img-text h1{
+    color: #fff;
+}
+
+.cursor-container .label-img-text h1{
     color: #fff;
 }
 

@@ -6,8 +6,8 @@ import Svg from './svg';
 const Item = (props) => {
 
     return (
-        <div className="col-sm">
-            <div className="cursor-container cur-alias">
+        <div className="col-sm-3">
+            <div className={`cursor-container ${props.obj.class}`}>
                 <div className="label">
                     <div className="label-img">
                         <Svg/>
